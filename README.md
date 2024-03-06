@@ -7,7 +7,8 @@ Teste vaga de estágio
 ### Url do site https://br.openfoodfacts.org/
 ### O scrapping abaixo deverá ser rodado no console do navegador
 
-```javascript
+*linguist-language=JavaScript
+
 var productName = document.querySelector("h2.title-1").innerText.trim();
 console.log(productName);
 
@@ -46,5 +47,5 @@ console.log("Pontuação nutricional:", nutritionalScore);
 console.log("Ingredientes:", ingredients);
 console.log("Eco Score:", ecoScore);
 
-```
+
 ----------------------------------------------------------------------------------------------------------------
